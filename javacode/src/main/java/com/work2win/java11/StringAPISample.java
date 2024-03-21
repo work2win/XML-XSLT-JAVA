@@ -3,7 +3,7 @@ package com.work2win.java11;
 public class StringAPISample {
 
 	public static void main(String[] args) {
-		// you can launch this by running - java StringAPISample.java
+		// you can launch this by running - java StringAPISample.java in java 11
 
 		String str = "Hello World";
 		String input = "\nHello World \u2005";
