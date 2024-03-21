@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+    <people>
+        <person>
+            <name>KasunK alhara</name>
+            <email>kasun@gmail.com</email>
+            <country>Sri lanka</country>
+        </person>
+         
+        <person>
+            <name>lasith malinga</name>
+            <email type="intranet">malinga@yahoo.com</email>
+            <country>Sri Lanka</country>
+        </person>
+            <person>
+            <name>dinesh kumara</name>
+            <email type="intranet">kumara@gmail.com</email>
+            <country>India</country>
+        </person>
+            <person>
+            <name>Salman khan</name>
+            <email type="intranet">khan@gmail.com</email>
+            <country>Canada</country>
+        </person>
+</people>
