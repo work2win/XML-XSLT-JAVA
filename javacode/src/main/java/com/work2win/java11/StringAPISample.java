@@ -3,7 +3,7 @@ package com.work2win.java11;
 public class StringAPISample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// you can launch this by running - java StringAPISample.java
 
 		String str = "Hello World";
 		String input = "\nHello World \u2005";
