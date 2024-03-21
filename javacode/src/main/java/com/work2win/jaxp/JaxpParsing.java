@@ -11,6 +11,8 @@ import javax.xml.parsers.ParserConfigurationException;
 
 public class JaxpParsing {
 	
+	
+	
 	public static void main(String[] args) {
 		
 
@@ -35,6 +37,8 @@ public class JaxpParsing {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
 	}
 
 }
