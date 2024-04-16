@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Book {
+public class BookStream {
 	
 	private String title;
 	private String author;
@@ -12,7 +12,7 @@ public class Book {
 	
 	
 	
-	public Book(String title, String author, int price) {
+	public BookStream(String title, String author, int price) {
 		super();
 		this.title = title;
 		this.author = author;
@@ -46,17 +46,17 @@ public class Book {
 	public static void main(String args[]) {
 		
 		
-		List<Book> listOfBooks = new ArrayList<>();
-		listOfBooks.add(new Book("Effective Java", "Joshua Bloch", 2));
-		listOfBooks.add(new Book("Java Puzzlers", "Joshua Bloch", 22));
-		listOfBooks.add(new Book("Java Concurrency in Practice", 
+		List<BookStream> listOfBooks = new ArrayList<>();
+		listOfBooks.add(new BookStream("Effective Java", "Joshua Bloch", 2));
+		listOfBooks.add(new BookStream("Java Puzzlers", "Joshua Bloch", 22));
+		listOfBooks.add(new BookStream("Java Concurrency in Practice", 
 		"Brian Goetz", 42));
-		listOfBooks.add(new Book("Java SE 8 for Really Impatient",
+		listOfBooks.add(new BookStream("Java SE 8 for Really Impatient",
 		 "Cay S. Horstmann", 34));
-		listOfBooks.add(new Book("Core Java", "Cay S. Horstmann",32));
+		listOfBooks.add(new BookStream("Core Java", "Cay S. Horstmann",32));
 		
 		//listOfBooks.sort(Comparator.comparing((Book b) -> b.getAuthor()));
-		listOfBooks.sort(Comparator.comparing(Book::getPrice));
+		listOfBooks.sort(Comparator.comparing(BookStream::getPrice));
 		//Sorting based on age[Book [title=Effective Java, author=Joshua Bloch, price=2], Book [title=Java Puzzlers, author=Joshua Bloch, price=22], Book [title=Core Java, author=Cay S. Horstmann, price=32], Book [title=Java SE 8 for Really Impatient, author=Cay S. Horstmann, price=34], Book [title=Java Concurrency in Practice, author=Brian Goetz, price=42]]
 		System.out.println("Sorting based on age"+listOfBooks);
 	}
